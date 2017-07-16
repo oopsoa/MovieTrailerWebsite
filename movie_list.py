@@ -22,7 +22,6 @@ def create_movie(movie_json):
 
 def get_poster_url(partial_url):
   poster_url = "http://image.tmdb.org/t/p/w185/" + partial_url
-  print(poster_url)
   return poster_url
 
 def get_trailer_url(movie_id):
