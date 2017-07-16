@@ -20,9 +20,19 @@ This file has the code to create a list of movie instances that uses the Movie c
 
 This file has the code to create the html page and render the movie trailers. The movie list is passed to the `open_movies_page` function.
 
-### movie_trailer.html ###
+
+### Installation, Setup and running the website ###
+
+1. Install and setup python 3.6 or above
+2. Clone the project from the following github repository [MovieTrailerWebsite](https://github.com/oopsoa/MovieTrailerWebsite)
+3. Run the following python script to launch the website `python movie_site.py`
+4. `movie_trailer.html` file will be generated and launched with a list of movies
+
+### Rendered movie_trailer.html ###
 
 The `open_movies_page` function call creates an html page that renders the movie trailers.
 
 ![alt text](/movie_trailer_html.png "Movie Trailer Website")
+
+
 
